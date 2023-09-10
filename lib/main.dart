@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 import 'package:state_test/bloc/counter_bloc.dart';
 import 'package:state_test/getx/view/screen1.dart';
+import 'package:state_test/getx/view/user_screen.dart';
 
 import 'second_page.dart';
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Screen1(),
+      home: UserScreen(),
     );
   }
 }
